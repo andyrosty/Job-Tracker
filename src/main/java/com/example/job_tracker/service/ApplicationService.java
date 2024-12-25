@@ -52,7 +52,4 @@ public class ApplicationService {
                 .orElseThrow(() -> new ResourceNotFoundException("Application not found"));
     }
 
-    public void deleteApplication(Long id) {
-        applicationRepository.deleteById(id);
-    }
-}
+    public void deleteApplicati
